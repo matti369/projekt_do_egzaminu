@@ -40,17 +40,17 @@ nav a:hover {
 /*Header*/
 
 header {
-	height: 40vh;
+	height: 700px;
 	background-image: url(grafika/header.jpg);
 	background-size: cover;
 	background-position: center;
 }
 
 header h1 {
-	font-size: 70px;
-	color: #000;
+	font-size: 100px;
+	color: rgb(10 13 255);
 	text-align: center;
-	line-height: 40vh;
+	line-height: 700px;
 	font-family: 'Pacifico', sans-serif;
 	background-color: rgba(0, 0, 0, 0.1);
 	min-width: 1250px;
@@ -124,4 +124,23 @@ section.tekst p {
 
 .underline {
 	text-decoration: underline;
+}
+
+#button {
+	display: block;
+	font-size: 30px;
+	margin-right: 60px;
+	text-align: right;
+	text-decoration: none;
+	color: black;
+}
+
+/*Footer*/
+
+#contact {
+	text-align: center;
+	margin: 30px auto;
+	font-size: 40px;
+	background-color: chartreuse;
+	padding: 40px
 }
