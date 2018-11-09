@@ -92,20 +92,36 @@ main ul li img:hover {
 	cursor: pointer
 }
 
-.close_float {
-	clear: both;
-}
-
 /*Section tekst*/
+
+section.tekst {
+	clear: both;
+	width: 80vw;
+	margin: 100px auto;
+}
 
 section.tekst img {
 	width: 30vw;
 	height: 30vh;
-	position: absolute;
-	right: 20px;
-	bottom: -1950px
+	float: right;
+	margin-left: 20px;
+	box-shadow: 10px 0 50px;
 }
 
 section.tekst p {
 	text-align: justify;
+	line-height: 2em;
+	font-weight: 400;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
 }
