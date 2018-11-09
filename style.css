@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*Menu*/
+
+nav {
+	position: fixed;
+	width: 90%;
+	background-color: black;
+	font-size: 0px;
+	margin: 20px 50px;
+	padding: 30px;
+	border-radius: 50px;
+	min-width: 760px;
+}
+
+nav a {
+	font-size: 36px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+nav a:hover {
+	border-bottom: 3px solid royalblue;
+	background-color: #fff;
+	color: black;
+	transition: .3s;
+}
+
+
+/*Header*/
+
+header {
+	height: 40vh;
+	background-image: url(grafika/header.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+header h1 {
+	font-size: 70px;
+	color: #000;
+	text-align: center;
+	line-height: 40vh;
+	font-family: 'Pacifico', sans-serif;
+	background-color: rgba(0, 0, 0, 0.1);
+	min-width: 1250px;
+}
+
+/*Main*/
+
+/*Section siatka_grafiki*/
+
+#main_oferta {
+	font-size: 40px;
+	text-align: center;
+	margin: 40px auto;
+	text-decoration: underline;
+}
+
+main ul {
+	font-size: 0;
+}
+
+main ul li {
+	font-weight: 700;
+	font-size: 25px;
+	width: 50%;
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin: 20px auto;
+	min-width: 640px;
+}
+
+main ul li img {
+	box-shadow: 0 0 80px;
+	opacity: 0.6;
+}
+
+main ul li img:hover {
+	opacity: 1;
+	cursor: pointer
+}
+
+.close_float {
+	clear: both;
+}
+
+/*Section tekst*/
+
+section.tekst img {
+	width: 30vw;
+	height: 30vh;
+	position: absolute;
+	right: 20px;
+	bottom: -1950px
+}
+
+section.tekst p {
+	text-align: justify;
+}
