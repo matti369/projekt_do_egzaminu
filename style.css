@@ -8,17 +8,17 @@
 
 nav {
 	position: fixed;
-	width: 90%;
+	width: 80%;
 	background-color: black;
 	font-size: 0px;
-	margin: 20px 50px;
-	padding: 30px;
+	margin: 10px 100px;
+	padding: 10px;
 	border-radius: 50px;
 	min-width: 760px;
 }
 
 nav a {
-	font-size: 36px;
+	font-size: 30px;
 	text-decoration: none;
 	color: #fff;
 	font-family: 'Ubuntu', sans-serif;
